@@ -64,7 +64,7 @@ class CauHinhAppController extends Controller
     public function edit($id)
     {
         $cauHinhApp = CauHinhApp::find($id);
-        return view('cau-hinh-app.form', compact('CauHinhApp'));
+        return view('cau-hinh-app.form', compact('cauHinhApp'));
     }
 
     /**

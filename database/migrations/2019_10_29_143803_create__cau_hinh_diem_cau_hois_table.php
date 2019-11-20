@@ -18,6 +18,7 @@ class CreateCauHinhDiemCauHoisTable extends Migration
             $table->bigInteger('thu_tu');
             $table->bigInteger('diem');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

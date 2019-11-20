@@ -19,6 +19,7 @@ class CreateCauHinhTroGiupsTable extends Migration
             $table->bigInteger('thu_tu');
             $table->bigInteger('credit');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
